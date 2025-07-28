@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --primary-color: #4A90E2;
+  --secondary-color: #f0f0f0;
+  --hover-color: #357ABD;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgb(76, 74, 74);
+}
+
+.navbar-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-right:20px ;
+    
+    
+
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.links:hover{
+    border-bottom: 2px solid #357ABD;
+}
+.navbar-lists{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+
+}
+
+.navbar-div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.navbar-div img{
+    border-radius: 50%;
+}
+/* ----------------------------------------------------------------------------------------------- */
+.contact-form{
+
+    width: 40%;
+    height: 400px;
+
+    margin: 10px 0 124px 600px;
+    border-radius: 20px;
+}
+.contact-form h1{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px 0px 0px 200px;
+    width: 150px;
+    font-weight: bolder;
+    font-size: 50px;
+    border-bottom: 5px solid black;
+}
+.form-elements{
+    margin: 50px 20px 5px 20px;
+}
+
+label{
+  height: 20px;
+ 
+
+}
+input{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+}
+textarea{
+    height: 150px;
+    width: 50%;
+    border-radius: 10px;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 90px;
+    margin: 10px 0px 20px 90px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: aquamarine;
+}
+/* --------------------------------------------------------------------------------------------- */
+#footer {
+    background-color: #463f3a;
+
+
+    padding-top: 10px;
+    font-size: larger;
+    display: flex;
+
+}
+
+#footer img {
+    border-radius: 80%;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+#greeting {
+    padding-top: 15px;
+    margin-left: 350px;
+    color: white;
+}
+
+#webaziz {
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
