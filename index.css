@@ -35,7 +35,7 @@ html {
     font-size: larger;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-right: 44.9%;
+    margin-right: 38.9%;
 }
 
 .nav a {
@@ -88,8 +88,8 @@ ul.nav {
 }
 
 .social-link:hover {
-    color: white;
-    box-shadow:0 0 3px #357ABD,0 0 3px #357ABD,0 0 10px #357ABD;
+    color: black;
+    box-shadow:0 0 3px #463f3a,0 0 3px #463f3a,0 0 10px #463f3a;
 }
 
 .social-link {
@@ -101,10 +101,7 @@ ul.nav {
     padding: 10px;
     border-radius: 10px;
     border: 2px solid #ffffff;
-    color: white;
-    background-color: #357ABD;
-
-
+    color:black;
 }
 
 /* ----------------------------------------------------------------------------------------------- */
@@ -162,7 +159,7 @@ main {
 }
 
 .column-2 img:hover {
-    box-shadow: 0px 0px 20px #357ABD, 0px 0px 10px #357ABD;
+    box-shadow: 0px 0px 20px #463f3a, 0px 0px 10px #463f3a;
 }
 
 /* --------------------------------------------------------------------------------------------- */
