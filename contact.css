@@ -35,8 +35,15 @@
     font-weight: bolder;
     font-size: 20px;
 }
+.contact{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    border-bottom: 3px solid #333333;
+}
 .links:hover{
-    border-bottom: 2px solid #357ABD;
+    border-bottom: 3px solid #333333;
 }
 .navbar-lists{
     list-style-type: none;
@@ -74,10 +81,12 @@
     font-weight: bolder;
     font-size: 50px;
     border-bottom: 5px solid black;
-}
+}  
 .form-elements{
-    margin: 50px 20px 5px 20px;
+    margin: 50px 20px 5px -60px;
+    
 }
+
 
 label{
   height: 20px;

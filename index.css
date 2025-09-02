@@ -58,9 +58,15 @@ ul.nav {
     margin: 10px;
     margin: 0px 23px;
 }
-
+.home{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    border-bottom: 3px solid #333333;
+}
 .nav a:hover {
-    border-bottom: 3px solid #463f3a;
+    border-bottom: 3px solid #333333;
   /* padding: 5px; */
 }
 

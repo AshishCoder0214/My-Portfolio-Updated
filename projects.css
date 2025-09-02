@@ -35,8 +35,15 @@
     font-weight: bolder;
     font-size: 20px;
 }
+.projects{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    border-bottom: 3px solid #333333;
+}
 .links:hover{
-    border-bottom: 2px solid #357ABD;
+    border-bottom: 3px solid #333333;
 }
 .navbar-lists{
     list-style-type: none;
@@ -92,7 +99,7 @@ margin: 10px 20px 20px 20px;
 }
 .description{
     font-weight: bold;
-    margin: 20px;
+    margin: 10px 0px 5px 20px;
     color: white;
 }
 .description-para{
