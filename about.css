@@ -1,0 +1,158 @@
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ================= BODY ================= */
+body {
+    background-color: #0f172a;
+    color: #e5e7eb;
+}
+
+/* ================= HEADER ================= */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background: #020617;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #38bdf8;
+    object-fit: cover;
+}
+
+.logo span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ================= NAV ================= */
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #cbd5f5;
+    transition: 0.3s;
+}
+
+.nav a:hover,
+.nav a.active {
+    color: #38bdf8;
+}
+
+/* ================= ABOUT ================= */
+.about {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 80px 60px;
+}
+
+.about-left,
+.about-right {
+    flex: 1;
+}
+
+.about h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.about p {
+    line-height: 1.8;
+    color: #cbd5f5;
+}
+
+.highlight {
+    color: #38bdf8;
+    font-weight: 500;
+}
+
+/* ================= SKILLS ================= */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skill-card {
+    background: #020617;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.skill-card img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.skill-card p {
+    font-size: 14px;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(56,189,248,0.3);
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    background: #020617;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.footer img {
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+.footer .brand {
+    font-weight: 600;
+    color: #38bdf8;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 900px) {
+    .about {
+        flex-direction: column;
+        padding: 60px 30px;
+    }
+
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header {
+        padding: 15px 30px;
+    }
+}
